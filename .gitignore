@@ -1,0 +1,33 @@
+# 설치 파일과 임시 결과
+node_modules/
+.pnpm-store/
+.cache/
+.test-output/
+coverage/
+*.tsbuildinfo
+*.log
+
+# 개인 설정, 비밀번호, 로컬 데이터
+.env
+.env.*
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
+.codex/
+.agents/
+.sites-runtime/
+.wrangler/
+.next/
+.vinext/
+dist/
+outputs/
+work/
+
+# 운영체제 임시 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# index.html, assets/, .nojekyll은 웹사이트 실행에 필요하므로 포함합니다.

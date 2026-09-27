@@ -1,0 +1,4 @@
+export type Idea = { id: string; proposalDate: string; proposer: string; department: string; title: string; targetTask: string; problem: string; proposal: string; expectedEffect: string; priority: string; status: string; reviewNote: string };
+export type Project = { id: string; linkedIdeaId?: string; registeredDate: string; title: string; owner: string; department: string; purpose: string; stage: string; aiTools: string; developmentMethod: string; sourceLocation: string; deploymentLocation: string; testStatus: string; workUse: string; personalData: string; sensitiveData: string; securityReview: string; operationsOwner: string; version: string };
+export type Readiness = { id: string; category: string; title: string; detail: string; owner: string; targetDate: string; status: string; evidence: string; sortOrder: number };
+export type HubData = { ideas: Idea[]; projects: Project[]; readiness: Readiness[] };
